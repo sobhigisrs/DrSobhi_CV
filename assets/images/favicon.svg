@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sobhi Geo favicon">
+  <rect width="64" height="64" rx="12" fill="#071b33"/>
+  <path d="M10 42c9-18 19-26 31-29 7-2 12 2 13 8 2 10-7 22-21 27-9 4-17 1-23-6Z" fill="#15b8b0" opacity=".95"/>
+  <path d="M15 42c10 3 23-1 35-18M19 34c8 3 19 1 30-9M28 17c5 11 5 22-1 34M41 14c2 9 0 18-8 30" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <circle cx="47" cy="20" r="3" fill="#78e2da"/>
+</svg>

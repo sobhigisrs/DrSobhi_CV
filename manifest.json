@@ -1,0 +1,19 @@
+{
+  "name": "Dr. Sobhi Abdeljawad Geospatial Portfolio",
+  "short_name": "Sobhi Geo",
+  "description": "Academic and consulting portfolio for GIS, Remote Sensing, GeoAI, hydrology, environmental monitoring, and spatial decision support.",
+  "id": "/DrSobhi_CV/",
+  "start_url": "/DrSobhi_CV/",
+  "scope": "/DrSobhi_CV/",
+  "display": "standalone",
+  "background_color": "#06172b",
+  "theme_color": "#06172b",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

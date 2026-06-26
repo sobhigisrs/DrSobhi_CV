@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sobhigisrs.github.io/DrSobhi_CV/sitemap.xml

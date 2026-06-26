@@ -1,0 +1,22 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Local server or package artifacts
+node_modules/
+dist/
+build/
+.cache/
+
+# Keep the clean downloadable CV in docs/.
+# The original source file remains local but should not be committed as a duplicate.
+Eng-CV 2026.docx
