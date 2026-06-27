@@ -305,6 +305,17 @@ img {
   font-size: 1.08rem;
 }
 
+.hero-profile-image {
+  width: clamp(132px, 18vw, 220px);
+  aspect-ratio: 1;
+  margin: 0 0 24px;
+  border: 1px solid rgba(130, 240, 232, 0.34);
+  border-radius: 50%;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+  object-fit: cover;
+  object-position: center;
+}
+
 .typed-wrap {
   min-height: 40px;
   color: var(--teal-2);
