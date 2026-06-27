@@ -245,18 +245,18 @@
                 <div>
                   <span class="eyebrow">Maps and Figures</span>
                   <h2>${project.country}</h2>
-                  <p>Map, figure, and gallery placeholders are prepared for verified project visuals, satellite outputs, and downloadable technical exhibits.</p>
+                  <p>Map, figure, and gallery placeholders are prepared for verified project visuals, satellite outputs, and read-only technical exhibits.</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="masonry-grid mt-4">
-            ${["Map placeholder", "Figure placeholder", "Gallery placeholder", "Download placeholder"].map((label) => `
+            ${["Map preview", "Figure preview", "Gallery preview", "Read-only exhibit"].map((label) => `
               <article class="gallery-card glass"><i class="fa-solid fa-map"></i><h3>${label}</h3><p>${project.title}</p></article>
             `).join("")}
           </div>
           <div class="download-strip glass mt-4">
-            ${project.downloads.map((item) => `<span><i class="fa-solid fa-download"></i>${item}</span>`).join("")}
+            ${(project.previews || []).map((item) => `<span><i class="fa-solid fa-eye"></i>${item}</span>`).join("")}
           </div>
         </div>
       </section>
@@ -282,7 +282,7 @@
           <div class="pub-actions">
             <button class="mini-action" data-copy="${encodeURIComponent(apa(pub))}"><i class="fa-solid fa-quote-right"></i>Citation</button>
             <button class="mini-action" data-copy="${encodeURIComponent(bibtex(pub))}"><i class="fa-solid fa-code"></i>BibTeX</button>
-            <a class="mini-action" href="#"><i class="fa-solid fa-file-pdf"></i>PDF</a>
+            <a class="mini-action" href="${path("publications.html")}"><i class="fa-solid fa-book-open-reader"></i>Read More</a>
             <small>${pub.doi}</small>
           </div>
         </article>
@@ -384,13 +384,13 @@
   function renderDownloads() {
     const root = $("#downloadsGrid");
     if (!root) return;
-    root.innerHTML = data.downloads.map((item, index) => `
+    root.innerHTML = data.profileLibrary.map((item, index) => `
       <div class="col-md-6 col-xl-4">
         <article class="download-card glass tilt-card" data-aos="fade-up" data-aos-delay="${(index % 3) * 55}">
           <i class="fa-solid ${item.icon}"></i>
           <span>${item.type}</span>
           <h3>${item.title}</h3>
-          <a class="btn-brand" href="${path(item.href)}" download><i class="fa-solid fa-download"></i>Download</a>
+          <a class="btn-brand" href="${path(item.href)}"><i class="fa-solid fa-eye"></i>${item.action}</a>
         </article>
       </div>
     `).join("");
@@ -502,6 +502,18 @@
     button.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   }
 
+  function initViewOnlyProtection() {
+    document.addEventListener("contextmenu", (event) => {
+      if (event.target.closest("img, .gallery-card, .project-visual, .map-placeholder, .project-map-frame")) {
+        event.preventDefault();
+      }
+    });
+    $$("img").forEach((image) => {
+      image.setAttribute("draggable", "false");
+      image.addEventListener("dragstart", (event) => event.preventDefault());
+    });
+  }
+
   function initPwa() {
     if ("serviceWorker" in navigator && location.protocol !== "file:") {
       navigator.serviceWorker.register(path("service-worker.js")).catch(() => {});
@@ -561,6 +573,7 @@
     animateCounters();
     initMap();
     initCopies();
+    initViewOnlyProtection();
     initBackTop();
     initPwa();
     injectStructuredData();

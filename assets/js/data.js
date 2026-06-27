@@ -13,7 +13,7 @@ window.portfolioData = {
     phone: "+966562864460",
     whatsapp: "https://wa.me/966562864460",
     location: "Cairo, Egypt",
-    cv: "docs/Sobhi-Abdeljawad-CV-2026.docx",
+    cv: "cv.html",
     roles: [
       "Senior Geospatial Consultant",
       "Assistant Professor of GIS and Remote Sensing",
@@ -23,7 +23,7 @@ window.portfolioData = {
       "PMP Certified Geospatial Program Leader"
     ],
     executiveSummary:
-      "Dr. Sobhi Abdeljawad is a PMP certified geospatial leader with more than 23 years of experience translating earth observation, GIS, GeoAI, hydrological modeling, and applied geomorphology into operational decisions for government agencies, utilities, universities, municipalities, and environmental programs across Egypt and the Gulf. His portfolio combines academic credibility, senior consulting delivery, field-based hazard expertise, and enterprise GIS leadership, making him highly relevant to organizations such as Esri, AECOM, Jacobs, WSP, Stantec, Aramco, NEOM, and United Nations programs seeking geospatial intelligence for resilient infrastructure, climate adaptation, environmental risk, and sustainable urban growth.",
+      "Dr. Sobhi Abdeljawad possesses extensive experience in delivering geospatial intelligence, advanced spatial analytics, and environmental risk assessments for high-level sovereign and strategic government institutions. His professional portfolio encompasses crisis and emergency management, natural hazard assessment, environmental monitoring, predictive spatial modeling, and the development of data-driven decision-support systems to support strategic planning and resilient infrastructure initiatives.",
     philosophy:
       "His professional philosophy is simple: spatial evidence must be scientifically defensible, operationally useful, and clear enough to guide real decisions. Every map, model, database, dashboard, and field protocol should reduce uncertainty for leaders responsible for people, infrastructure, and environmental assets."
   },
@@ -37,7 +37,7 @@ window.portfolioData = {
     { value: 23, suffix: "+", label: "Years of geospatial leadership" },
     { value: 18, suffix: "+", label: "Years in environmental GIS" },
     { value: 10, suffix: "+", label: "Years in urban planning GIS" },
-    { value: 4, suffix: "+", label: "Countries and regional contexts" },
+    { value: 6, suffix: "+", label: "Countries and regional contexts" },
     { value: 30, suffix: "+", label: "Training and capacity programs" },
     { value: 20, suffix: "+", label: "Research and applied studies" }
   ],
@@ -49,9 +49,11 @@ window.portfolioData = {
   ],
   countries: [
     { name: "Egypt", lat: 26.8206, lng: 30.8025, type: "Core practice", note: "Environmental GIS, disaster response, hydrology, universities, national agencies." },
-    { name: "Saudi Arabia", lat: 23.8859, lng: 45.0792, type: "Core practice", note: "Utility GIS, municipal GIS, infrastructure, slope hazards, urban planning." },
+    { name: "Saudi Arabia", lat: 23.8859, lng: 45.0792, type: "Core practice", note: "Utility GIS, municipal GIS, infrastructure, slope hazards, urban planning, and consulting activity." },
+    { name: "Jeddah, Saudi Arabia", lat: 21.4858, lng: 39.1925, type: "Professional experience", note: "Jeddah, Saudi Arabia - Delivered geospatial consulting, environmental analysis, and GIS-based technical support for infrastructure and environmental initiatives." },
     { name: "Bahrain", lat: 26.0667, lng: 50.5577, type: "Regional consulting", note: "Gulf geospatial consulting and environmental applications." },
     { name: "Morocco", lat: 31.7917, lng: -7.0926, type: "Academic exchange", note: "International geographic conferences and research discussion." },
+    { name: "Rome, Italy", lat: 41.9028, lng: 12.4964, type: "Professional Training Program", note: "Rome, Italy (2005) - Participated in a professional international training program, strengthening global exposure and technical expertise in geospatial and environmental applications." },
     { name: "Oman", lat: 21.4735, lng: 55.9754, type: "Training delivery", note: "GIS and remote sensing applications in environmental fields." }
   ],
   expertise: [
@@ -71,14 +73,15 @@ window.portfolioData = {
   experience: [
     {
       role: "GIS and Remote Sensing Consultant",
-      organization: "SECCO",
+      organization: "Sovereign Entity",
       country: "Saudi Arabia",
       duration: "Jul 2025",
       technologies: ["ArcGIS Pro", "WMS", "DEMs", "Remote sensing", "Field survey data"],
       achievements: [
-        "Advised infrastructure and environmental teams on geospatial strategy aligned with national development priorities.",
-        "Unified elevation, imagery, and survey datasets into a more reliable spatial database for planning and technical review.",
-        "Raised internal geospatial maturity through focused workshops that converted specialist workflows into repeatable institutional practice."
+        "Delivered Geospatial Intelligence and Advanced Spatial Analytics to support executive decision-making, strategic consulting, and high-priority planning initiatives for a Sovereign Entity.",
+        "Integrated DEMs, satellite imagery, survey data, and field observations into enterprise geospatial platforms for infrastructure planning, environmental monitoring, and technical assessment.",
+        "Developed data-driven Decision Support Systems, environmental risk analyses, and predictive spatial models to strengthen operational planning and resilience-focused initiatives.",
+        "Supported crisis and emergency management capabilities through specialized geospatial workflows, technical mentoring, and standardized spatial analysis practices."
       ]
     },
     {
@@ -247,7 +250,7 @@ window.portfolioData = {
       methodology: "DEM conditioning, watershed delineation, stream order analysis, flow accumulation, 3D terrain modeling, multi-temporal imagery interpretation, and hydrologic risk ranking.",
       software: ["ArcGIS Pro", "Arc Hydro", "Spatial Analyst", "SDE", "Landsat", "MODIS", "Sentinel"],
       results: "Delivered predictive flood susceptibility maps, catchment products, drainage models, and executive reporting for environmental and water-resource decisions.",
-      downloads: ["Technical map placeholder", "Flood susceptibility layer placeholder"]
+      previews: ["Technical map preview", "Flood susceptibility layer preview"]
     },
     {
       id: "environmental-disaster-geodatabase",
@@ -263,7 +266,7 @@ window.portfolioData = {
       methodology: "Geodatabase modeling, data standardization, multi-source integration, risk classification, crisis map production, and operational reporting.",
       software: ["ArcGIS", "ArcSDE", "ArcServer", "MODIS", "Landsat", "SPOT", "PCI Geomatics"],
       results: "Improved response readiness with standardized spatial layers for flood, pollution, fire, environmental risk, and emergency mapping workflows.",
-      downloads: ["UDM schema placeholder", "Environmental crisis map placeholder"]
+      previews: ["UDM schema preview", "Environmental crisis map preview"]
     },
     {
       id: "saudi-electricity-infrastructure-gis",
@@ -279,7 +282,7 @@ window.portfolioData = {
       methodology: "GPS field validation, infrastructure layer QA/QC, base map updates, survey manual design, enterprise data integration, and engineering map production.",
       software: ["ArcGIS", "AutoCAD", "GPS", "Enterprise GIS"],
       results: "Delivered validated infrastructure datasets, repeatable survey protocols, and more reliable spatial inputs for grid planning and risk mitigation.",
-      downloads: ["Survey manual placeholder", "Infrastructure map placeholder"]
+      previews: ["Survey manual preview", "Infrastructure map preview"]
     },
     {
       id: "khamis-mushait-municipal-gis",
@@ -295,7 +298,7 @@ window.portfolioData = {
       methodology: "Geodatabase development, high-resolution image interpretation, urban expansion analysis, zoning map production, and staff capacity building.",
       software: ["ArcGIS", "AutoCAD", "SPOT", "Landsat", "GeoEye"],
       results: "Created a digitized municipal spatial framework that improved planning, land management, infrastructure monitoring, and cross-department coordination.",
-      downloads: ["Municipal GIS schema placeholder", "Zoning map placeholder"]
+      previews: ["Municipal GIS schema preview", "Zoning map preview"]
     },
     {
       id: "port-said-environmental-hazards",
@@ -311,7 +314,7 @@ window.portfolioData = {
       methodology: "Spatial environmental modeling, field supervision, geodatabase design, hazard inventory, and map communication.",
       software: ["ArcGIS", "Remote sensing", "Geodatabase design"],
       results: "Produced a GIS-based environmental hazards database and applied student research outputs for Port Said.",
-      downloads: ["Hazard database placeholder", "Student atlas placeholder"]
+      previews: ["Hazard database preview", "Student atlas preview"]
     },
     {
       id: "suez-canal-emissions-modeling",
@@ -327,7 +330,7 @@ window.portfolioData = {
       methodology: "Environmental overlay analysis, spatial modeling, map interpretation, and impact communication.",
       software: ["GIS", "Remote sensing", "Environmental modeling"],
       results: "Delivered applied spatial evidence that supported environmental impact assessment and research discussion.",
-      downloads: ["Impact map placeholder", "Executive summary placeholder"]
+      previews: ["Impact map preview", "Executive summary preview"]
     },
     {
       id: "slope-hazard-zoning",
@@ -343,7 +346,7 @@ window.portfolioData = {
       methodology: "Terrain analysis, geomorphological field interpretation, DEM derivatives, slope classification, rockfall risk zoning, and remote sensing review.",
       software: ["ArcGIS", "DEM analysis", "Remote sensing", "Geomorphological mapping"],
       results: "Produced hazard zoning maps and recommendations for high-risk slope environments in Egypt and Saudi Arabia.",
-      downloads: ["Slope hazard map placeholder", "Risk matrix placeholder"]
+      previews: ["Slope hazard map preview", "Risk matrix preview"]
     },
     {
       id: "national-environmental-atlases",
@@ -359,7 +362,7 @@ window.portfolioData = {
       methodology: "Multi-temporal satellite analysis, environmental indicators, sensitivity mapping, dashboards, agency training, and spatial reporting.",
       software: ["ArcGIS", "ArcSDE", "ArcServer", "Landsat", "SPOT", "MODIS", "GeoEye"],
       results: "Delivered updated environmental atlases, national monitoring maps, decision-support layers, and technical capacity for agency staff.",
-      downloads: ["Atlas sample placeholder", "Monitoring indicators placeholder"]
+      previews: ["Atlas sample preview", "Monitoring indicators preview"]
     }
   ],
   publications: [
@@ -440,6 +443,7 @@ window.portfolioData = {
     "2019: ArcGIS 10.X Applications for Auditing Electrical Grid - Saudi Electricity Company, Saudi Arabia",
     "2016-2017: ArcGIS 10.X for Updating Base Maps and Infrastructure Data - Saudi Electricity Company, Saudi Arabia",
     "2015: GIS and Remote Sensing Applications in Environmental Fields - Ministry of Environment and Climate Affairs, Sultanate of Oman",
+    "2005: Rome, Italy - Participated in a professional international training program, strengthening global exposure and technical expertise in geospatial and environmental applications.",
     "2005: GIS Applications for Specialized Spatial Analysis - Faculty of Arts, Cairo University",
     "2003-2004: Environmental GIS and satellite data workshops - Egyptian Environmental Affairs Agency"
   ],
@@ -466,16 +470,16 @@ window.portfolioData = {
   ],
   consulting: [
     { region: "Egypt", focus: "Environmental GIS, national monitoring, disaster response, hydrology, university research, and applied geomorphology.", sectors: ["Environment", "Hydrology", "Urban Planning", "Research"] },
-    { region: "Saudi Arabia", focus: "Utility infrastructure GIS, municipal GIS, field survey systems, urban expansion monitoring, and slope hazard studies.", sectors: ["Infrastructure", "Municipal GIS", "Remote Sensing", "Geomorphology"] },
+    { region: "Saudi Arabia", focus: "Utility infrastructure GIS, municipal GIS, field survey systems, urban expansion monitoring, environmental analysis, and consulting activity including Jeddah.", sectors: ["Infrastructure", "Municipal GIS", "Remote Sensing", "Geomorphology"] },
     { region: "Bahrain", focus: "Regional Gulf consulting profile for geospatial environmental applications and urban decision support.", sectors: ["GIS", "Remote Sensing", "Climate", "Urban Planning"] },
     { region: "International Organizations", focus: "Decision-support intelligence aligned with UNDP, FAO, and sustainable development priorities.", sectors: ["Climate", "Disaster Risk", "Environmental Policy", "Capacity Building"] }
   ],
-  downloads: [
-    { title: "Curriculum Vitae", type: "DOCX", href: "docs/Sobhi-Abdeljawad-CV-2026.docx", icon: "fa-file-word" },
-    { title: "Portfolio Summary", type: "TXT", href: "docs/portfolio-summary.txt", icon: "fa-id-card" },
-    { title: "Publications List", type: "TXT", href: "docs/publications-list.txt", icon: "fa-file-lines" },
-    { title: "Books Overview", type: "TXT", href: "docs/books-overview.txt", icon: "fa-book" },
-    { title: "Presentations Overview", type: "TXT", href: "docs/presentations-overview.txt", icon: "fa-display" },
-    { title: "Certificates Index", type: "TXT", href: "docs/certificates-index.txt", icon: "fa-certificate" }
+  profileLibrary: [
+    { title: "Curriculum Vitae", type: "Online Profile", href: "cv.html", icon: "fa-id-card", action: "View Profile" },
+    { title: "Portfolio Summary", type: "Profile Overview", href: "about.html", icon: "fa-user-tie", action: "Read More" },
+    { title: "Publications List", type: "Research Index", href: "publications.html", icon: "fa-book-open-reader", action: "Browse Publications" },
+    { title: "Books Overview", type: "Books", href: "books.html", icon: "fa-book", action: "Read More" },
+    { title: "Presentations Overview", type: "Academic Activity", href: "teaching.html", icon: "fa-display", action: "Explore Experience" },
+    { title: "Certificates Index", type: "Professional Profile", href: "skills.html", icon: "fa-certificate", action: "View Profile" }
   ]
 };
