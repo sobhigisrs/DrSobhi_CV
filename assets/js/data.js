@@ -500,6 +500,7 @@ window.portfolioData = {
   ],
   profileLibrary: [
     { title: "Curriculum Vitae", type: "Online Profile", href: "cv.html", icon: "fa-id-card", action: "View Profile" },
+    { title: "Reviewed CV Redline", type: "Word Document", href: "Eng-CV_Reviewed_Redline.docx", icon: "fa-file-word", action: "Download CV" },
     { title: "Portfolio Summary", type: "Profile Overview", href: "about.html", icon: "fa-user-tie", action: "Read More" },
     { title: "Publications List", type: "Research Index", href: "publications.html", icon: "fa-book-open-reader", action: "Browse Publications" },
     { title: "Books Overview", type: "Books", href: "books.html", icon: "fa-book", action: "Read More" },
