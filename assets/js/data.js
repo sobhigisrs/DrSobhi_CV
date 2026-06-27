@@ -69,7 +69,7 @@ window.portfolioData = {
     { city: "Suez", country: "Egypt", region: "Egypt", lat: 29.9668, lng: 32.5498, work: "Environmental assessment, emissions modeling, infrastructure analysis, and spatial decision support." },
     { city: "Ismailia", country: "Egypt", region: "Egypt", lat: 30.5965, lng: 32.2715, work: "Academic engagement, applied geography, environmental applications, and research exchange." },
     { city: "Aswan", country: "Egypt", region: "Egypt", lat: 24.0889, lng: 32.8998, work: "Hydrology, geomorphology, flash-flood assessment, terrain interpretation, and field-based environmental studies." },
-    { city: "New Valley (El Wadi El Gedid)", country: "Egypt", region: "Egypt", lat: 25.4478, lng: 30.5469, work: "Desert geomorphology, environmental analysis, hydrologic studies, and remote sensing applications." },
+    { city: "El Wadi El Gedid (New Valley)", country: "Egypt", region: "Egypt", lat: 25.4478, lng: 30.5469, work: "Desert geomorphology, environmental analysis, hydrologic studies, and remote sensing applications." },
     { city: "Khamis Mushait", country: "Saudi Arabia", region: "Saudi Arabia", lat: 18.3000, lng: 42.7333, work: "Municipal GIS, urban planning, infrastructure mapping, consulting, and geospatial modernization." },
     { city: "Abha", country: "Saudi Arabia", region: "Saudi Arabia", lat: 18.2164, lng: 42.5053, work: "Infrastructure GIS, slope hazards, field survey validation, remote sensing, and environmental assessment." },
     { city: "Jeddah", country: "Saudi Arabia", region: "Saudi Arabia", lat: 21.4858, lng: 39.1925, work: "Geospatial consulting, environmental analysis, and GIS-based technical support for infrastructure initiatives." },

@@ -528,7 +528,7 @@
     };
 
     const paths = [
-      ["Cairo", "Port Said", "Zagazig", "Ismailia", "Suez", "Aswan", "New Valley (El Wadi El Gedid)"],
+      ["Cairo", "Port Said", "Zagazig", "Ismailia", "Suez", "Aswan", "El Wadi El Gedid (New Valley)"],
       ["Riyadh", "Buraidah", "Al Ahsa (Hofuf)", "Jeddah", "Abha", "Khamis Mushait", "Jazan"],
       ["Cairo", "Muscat", "Rome"]
     ];
