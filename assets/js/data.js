@@ -10,8 +10,8 @@ window.portfolioData = {
     shortName: "Dr. Sobhi Abdeljawad",
     title: "PMP® | Senior GIS and Remote Sensing Consultant | GeoAI and Environmental Risk Specialist",
     email: "sobhi.abdelhameed@arts.psu.edu.eg",
-    phone: "+966 562 864 460",
-    whatsapp: "https://wa.me/966562864460",
+    phone: "+20 101 525 2458",
+    whatsapp: "https://wa.me/201015252458",
     location: "Cairo, Egypt",
     cv: "cv.html",
     roles: [
