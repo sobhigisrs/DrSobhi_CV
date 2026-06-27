@@ -110,6 +110,19 @@ window.portfolioData = {
     },
     {
       role: "GIS and Remote Sensing Consultant",
+      organization: "Sovereign Entity",
+      country: "Strategic Consulting Assignment",
+      duration: "Jul 2025",
+      technologies: ["Geospatial Intelligence", "Advanced Spatial Analytics", "Enterprise GIS", "Remote sensing", "Decision Support Systems"],
+      achievements: [
+        "Delivered geospatial intelligence and advanced spatial analytics to support executive decision-making, strategic consulting, and high-priority planning initiatives for a Sovereign Entity.",
+        "Integrated DEMs, satellite imagery, survey data, and field observations into enterprise geospatial platforms for infrastructure planning, environmental monitoring, and technical assessment.",
+        "Developed data-driven decision support systems, environmental risk analyses, and predictive spatial models to strengthen operational planning and resilience-focused initiatives.",
+        "Supported crisis and emergency management capabilities through specialized geospatial workflows, technical mentoring, and standardized spatial analysis practices."
+      ]
+    },
+    {
+      role: "GIS and Remote Sensing Consultant",
       organization: "Technical Design Engineering Consultancy",
       country: "Egypt",
       duration: "Jul 2025 - Jun 2026",
