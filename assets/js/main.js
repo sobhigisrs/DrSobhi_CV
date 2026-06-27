@@ -479,6 +479,96 @@
     });
   }
 
+  function renderCityExperience() {
+    const statsRoot = $("#cityExperienceStats");
+    const listRoot = $("#cityExperienceList");
+    const cities = data.cityExperience || [];
+    if (statsRoot) {
+      statsRoot.innerHTML = data.cityExperienceStats.map((stat) => `
+        <article class="city-stat">
+          <strong>${stat.value}</strong>
+          <span>${stat.label}</span>
+        </article>
+      `).join("");
+    }
+    if (listRoot) {
+      const groups = ["Egypt", "Saudi Arabia", "International"];
+      listRoot.innerHTML = groups.map((group) => {
+        const groupCities = cities.filter((item) => item.region === group);
+        return `
+          <article class="city-group">
+            <span>${group}</span>
+            <p>${groupCities.map((item) => item.city).join(", ")}</p>
+          </article>
+        `;
+      }).join("");
+    }
+  }
+
+  function initCitiesMap() {
+    const root = $("#citiesMap");
+    const cities = data.cityExperience || [];
+    if (!root || !window.L || !cities.length) return;
+
+    const map = L.map(root, {
+      scrollWheelZoom: false,
+      zoomControl: true,
+      attributionControl: true
+    }).setView([25.4, 37.4], 4);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 12,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    const regionStyles = {
+      Egypt: { className: "city-marker city-marker-egypt", color: "#82f0e8" },
+      "Saudi Arabia": { className: "city-marker city-marker-saudi", color: "#4aa3ff" },
+      International: { className: "city-marker city-marker-international", color: "#f7d36b" }
+    };
+
+    const paths = [
+      ["Cairo", "Port Said", "Zagazig", "Ismailia", "Suez", "Aswan", "New Valley (El Wadi El Gedid)"],
+      ["Riyadh", "Buraidah", "Al Ahsa (Hofuf)", "Jeddah", "Abha", "Khamis Mushait", "Jazan"],
+      ["Cairo", "Muscat", "Rome"]
+    ];
+
+    const byCity = Object.fromEntries(cities.map((city) => [city.city, city]));
+    paths.forEach((path, index) => {
+      const points = path.map((name) => byCity[name]).filter(Boolean).map((city) => [city.lat, city.lng]);
+      if (points.length < 2) return;
+      L.polyline(points, {
+        color: index === 0 ? "#82f0e8" : index === 1 ? "#4aa3ff" : "#f7d36b",
+        weight: 2,
+        opacity: 0.42,
+        dashArray: "8 10",
+        className: "city-connection-line"
+      }).addTo(map);
+    });
+
+    cities.forEach((city) => {
+      const style = regionStyles[city.region] || regionStyles.International;
+      const icon = L.divIcon({
+        className: style.className,
+        html: "<span></span>",
+        iconSize: [26, 26],
+        iconAnchor: [13, 13]
+      });
+      L.marker([city.lat, city.lng], { icon }).addTo(map).bindTooltip(
+        `<strong>${city.city}, ${city.country}</strong><br>${city.work}`,
+        {
+          direction: "top",
+          offset: [0, -12],
+          opacity: 0.96,
+          sticky: true,
+          className: "city-tooltip"
+        }
+      );
+    });
+
+    map.fitBounds(cities.map((city) => [city.lat, city.lng]), { padding: [32, 32] });
+  }
+
   function initCopies() {
     document.addEventListener("click", async (event) => {
       const button = event.target.closest("[data-copy]");
@@ -567,11 +657,13 @@
     renderDownloads();
     renderGallery();
     renderLists();
+    renderCityExperience();
     initTyped();
     initAOS();
     initSwiper();
     animateCounters();
     initMap();
+    initCitiesMap();
     initCopies();
     initViewOnlyProtection();
     initBackTop();

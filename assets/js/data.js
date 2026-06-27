@@ -56,6 +56,30 @@ window.portfolioData = {
     { name: "Rome, Italy", lat: 41.9028, lng: 12.4964, type: "Professional Training Program", note: "Rome, Italy (2005) - Participated in a professional international training program, strengthening global exposure and technical expertise in geospatial and environmental applications." },
     { name: "Oman", lat: 21.4735, lng: 55.9754, type: "Training delivery", note: "GIS and remote sensing applications in environmental fields." }
   ],
+  cityExperienceStats: [
+    { value: "16+", label: "Cities Served" },
+    { value: "4", label: "Countries Visited/Worked In" },
+    { value: "23+", label: "Years of Experience" },
+    { value: "100+", label: "Projects Delivered" }
+  ],
+  cityExperience: [
+    { city: "Cairo", country: "Egypt", region: "Egypt", lat: 30.0444, lng: 31.2357, work: "Government GIS, environmental monitoring, crisis mapping, consulting, and strategic geospatial programs." },
+    { city: "Port Said", country: "Egypt", region: "Egypt", lat: 31.2653, lng: 32.3019, work: "University teaching, applied research, environmental studies, student supervision, and GIS training." },
+    { city: "Zagazig", country: "Egypt", region: "Egypt", lat: 30.5877, lng: 31.5020, work: "Academic foundation, geography and GIS specialization, and early professional development." },
+    { city: "Suez", country: "Egypt", region: "Egypt", lat: 29.9668, lng: 32.5498, work: "Environmental assessment, emissions modeling, infrastructure analysis, and spatial decision support." },
+    { city: "Ismailia", country: "Egypt", region: "Egypt", lat: 30.5965, lng: 32.2715, work: "Academic engagement, applied geography, environmental applications, and research exchange." },
+    { city: "Aswan", country: "Egypt", region: "Egypt", lat: 24.0889, lng: 32.8998, work: "Hydrology, geomorphology, flash-flood assessment, terrain interpretation, and field-based environmental studies." },
+    { city: "New Valley (El Wadi El Gedid)", country: "Egypt", region: "Egypt", lat: 25.4478, lng: 30.5469, work: "Desert geomorphology, environmental analysis, hydrologic studies, and remote sensing applications." },
+    { city: "Khamis Mushait", country: "Saudi Arabia", region: "Saudi Arabia", lat: 18.3000, lng: 42.7333, work: "Municipal GIS, urban planning, infrastructure mapping, consulting, and geospatial modernization." },
+    { city: "Abha", country: "Saudi Arabia", region: "Saudi Arabia", lat: 18.2164, lng: 42.5053, work: "Infrastructure GIS, slope hazards, field survey validation, remote sensing, and environmental assessment." },
+    { city: "Jeddah", country: "Saudi Arabia", region: "Saudi Arabia", lat: 21.4858, lng: 39.1925, work: "Geospatial consulting, environmental analysis, and GIS-based technical support for infrastructure initiatives." },
+    { city: "Jazan", country: "Saudi Arabia", region: "Saudi Arabia", lat: 16.8892, lng: 42.5611, work: "Regional infrastructure context, environmental monitoring, spatial analysis, and GIS consulting support." },
+    { city: "Buraidah", country: "Saudi Arabia", region: "Saudi Arabia", lat: 26.3592, lng: 43.9818, work: "Infrastructure planning, GIS technical support, and spatial data workflows for regional initiatives." },
+    { city: "Al Ahsa (Hofuf)", country: "Saudi Arabia", region: "Saudi Arabia", lat: 25.3833, lng: 49.5867, work: "Urban and environmental GIS applications, infrastructure planning, and spatial consulting activity." },
+    { city: "Riyadh", country: "Saudi Arabia", region: "Saudi Arabia", lat: 24.7136, lng: 46.6753, work: "Strategic consulting, national-scale geospatial initiatives, infrastructure planning, and decision-support systems." },
+    { city: "Muscat", country: "Oman", region: "International", lat: 23.5880, lng: 58.3829, work: "Professional training delivery in GIS and remote sensing applications for environmental fields." },
+    { city: "Rome", country: "Italy", region: "International", lat: 41.9028, lng: 12.4964, work: "Professional international training program strengthening global exposure and technical expertise." }
+  ],
   expertise: [
     { title: "Enterprise GIS", icon: "fa-server", text: "Spatial data governance, enterprise geodatabases, utility GIS, municipal GIS, UDM models, and multi-agency spatial data integration." },
     { title: "Remote Sensing", icon: "fa-satellite", text: "Satellite image processing, multi-temporal change detection, environmental indicators, thermal analysis, vegetation monitoring, and coastal assessment." },
