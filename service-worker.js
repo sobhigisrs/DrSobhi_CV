@@ -1,4 +1,4 @@
-const CACHE_NAME = "sobhi-geo-v5";
+const CACHE_NAME = "sobhi-geo-v6";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -44,6 +44,24 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  const url = new URL(event.request.url);
+  const isFreshContent =
+    event.request.mode === "navigate" ||
+    url.pathname.endsWith(".html") ||
+    url.pathname.endsWith(".css") ||
+    url.pathname.endsWith(".js");
+
+  if (isFreshContent) {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        return response;
+      }).catch(() => caches.match(event.request).then((cached) => cached || caches.match("./index.html")))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) =>
       cached || fetch(event.request).then((response) => {
