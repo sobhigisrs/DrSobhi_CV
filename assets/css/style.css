@@ -973,6 +973,17 @@ dd {
   box-shadow: inset 0 0 80px rgba(24, 196, 187, 0.08);
 }
 
+.cities-map .leaflet-tile {
+  filter: invert(1) hue-rotate(180deg) saturate(0.78) brightness(0.66) contrast(1.12);
+}
+
+.cities-map .leaflet-control-attribution,
+.cities-map .leaflet-control-zoom a {
+  border-color: rgba(130, 240, 232, 0.18);
+  color: var(--text);
+  background: rgba(6, 23, 43, 0.82);
+}
+
 .city-marker {
   display: grid;
   place-items: center;
