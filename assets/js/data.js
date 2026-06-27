@@ -1,31 +1,31 @@
 window.portfolioData = {
   site: {
     baseUrl: "./",
-    title: "Dr. Sobhi Abdeljawad | Geospatial Intelligence, GIS, Remote Sensing and GeoAI",
+    title: "Dr. Sobhi Abdeljawad | PMP® Senior GIS and Remote Sensing Consultant | GeoAI and Environmental Risk",
     description:
-      "World-class academic and consulting portfolio for an Assistant Professor, PMP certified senior geospatial consultant, GIS and Remote Sensing expert, GeoAI researcher, and applied environmental risk specialist."
+      "Executive portfolio for a PMP certified senior GIS and Remote Sensing consultant, GeoAI specialist, hydrological studies advisor, strategic planning contributor, and environmental risk management expert."
   },
   person: {
     name: "Sobhi Abdulhamid Abduljawwad Abdulhamid",
     shortName: "Dr. Sobhi Abdeljawad",
-    title: "Assistant Professor | PMP Senior GIS and Remote Sensing Consultant",
+    title: "PMP® | Senior GIS and Remote Sensing Consultant | GeoAI and Environmental Risk Specialist",
     email: "sobhi.abdelhameed@arts.psu.edu.eg",
-    phone: "+20 101 525 2458",
-    whatsapp: "https://wa.me/201015252458",
+    phone: "+966 562 864 460",
+    whatsapp: "https://wa.me/966562864460",
     location: "Cairo, Egypt",
     cv: "cv.html",
     roles: [
       "Senior Geospatial Consultant",
-      "Assistant Professor of GIS and Remote Sensing",
-      "GeoAI and Spatial Decision Support Researcher",
+      "PMP® Certified GIS and Remote Sensing Consultant",
+      "GeoAI and Spatial Decision Support Specialist",
       "Applied Geomorphology and Natural Hazard Expert",
-      "Environmental Monitoring and Urban Planning Advisor",
-      "PMP Certified Geospatial Program Leader"
+      "Environmental Risk and Disaster Risk Reduction Advisor",
+      "Hydrological Studies and Strategic Planning Consultant"
     ],
     executiveSummary:
-      "Dr. Sobhi Abdeljawad possesses extensive experience in delivering geospatial intelligence, advanced spatial analytics, and environmental risk assessments for high-level sovereign and strategic government institutions. His professional portfolio encompasses crisis and emergency management, natural hazard assessment, environmental monitoring, predictive spatial modeling, and the development of data-driven decision-support systems to support strategic planning and resilient infrastructure initiatives.",
+      "Senior GIS and Remote Sensing expert with 23+ years of cross-disciplinary leadership in applied geomorphology, environmental monitoring, urban and strategic planning, hydrological studies, climate change assessment, disaster risk reduction, and environmental risk management across Egypt and the Gulf region. Offers advanced expertise in spatial analytics, satellite image processing, GeoAI applications, geospatial intelligence, digital transformation, enterprise GIS, and the design and implementation of national and regional geodatabases. Proven record leading multidisciplinary teams and delivering strategic geospatial solutions for flash flood risk, slope and rockfall hazards, climate-related challenges, environmental degradation, and infrastructure resilience.",
     philosophy:
-      "His professional philosophy is simple: spatial evidence must be scientifically defensible, operationally useful, and clear enough to guide real decisions. Every map, model, database, dashboard, and field protocol should reduce uncertainty for leaders responsible for people, infrastructure, and environmental assets."
+      "His work connects academic rigor with executive decision support: every map, model, geodatabase, dashboard, and field protocol must be scientifically defensible, operationally useful, and clear enough to guide leaders responsible for people, infrastructure, and environmental assets."
   },
   links: {
     researchGate: "#",
@@ -82,42 +82,66 @@ window.portfolioData = {
   ],
   expertise: [
     { title: "Enterprise GIS", icon: "fa-server", text: "Spatial data governance, enterprise geodatabases, utility GIS, municipal GIS, UDM models, and multi-agency spatial data integration." },
-    { title: "Remote Sensing", icon: "fa-satellite", text: "Satellite image processing, multi-temporal change detection, environmental indicators, thermal analysis, vegetation monitoring, and coastal assessment." },
-    { title: "GeoAI", icon: "fa-brain", text: "Artificial intelligence for spatial prediction, green-area monitoring, flash flood susceptibility, and risk classification workflows." },
-    { title: "Hydrology", icon: "fa-water", text: "DEM processing, drainage networks, runoff modeling, watershed delineation, Arc Hydro workflows, and flood risk zoning." },
+    { title: "Remote Sensing and GEE", icon: "fa-satellite", text: "Satellite image processing, Google Earth Engine workflows, multi-temporal change detection, environmental indicators, thermal analysis, vegetation monitoring, and coastal assessment." },
+    { title: "GeoAI Applications", icon: "fa-brain", text: "Geospatial Artificial Intelligence for spatial prediction, green-area monitoring, flash flood susceptibility, hazard classification, and decision support systems." },
+    { title: "Hydrological Studies", icon: "fa-water", text: "DEM processing, drainage networks, runoff modeling, watershed delineation, Arc Hydro modeling, and flood risk zoning." },
     { title: "Geomorphology", icon: "fa-mountain", text: "Applied landform analysis, slope movement, rockfall risk, coastal geomorphology, terrain interpretation, and field validation." },
     { title: "Environmental Monitoring", icon: "fa-leaf", text: "Air, water, noise, vegetation, coral bleaching, fire events, pollution sources, and environmental sensitivity mapping." },
     { title: "Urban Planning", icon: "fa-city", text: "Urban expansion monitoring, zoning maps, municipal geodatabases, service planning, and spatial decision support for city growth." },
     { title: "Disaster Risk Reduction", icon: "fa-triangle-exclamation", text: "Real-time crisis mapping, hazard models, environmental disaster databases, and practical mitigation intelligence." },
     { title: "Infrastructure GIS", icon: "fa-bolt", text: "Electrical grid base maps, GPS validation, substations, power corridors, survey manuals, and engineering data exchange." },
     { title: "Climate and Sustainability", icon: "fa-temperature-three-quarters", text: "Climate risk, sustainable development, desalination forums, green buildings, and environmental policy support." },
-    { title: "Spatial Decision Support", icon: "fa-diagram-project", text: "Executive dashboards, spatial reports, scenario maps, and geospatial products for public and private-sector leaders." },
-    { title: "Digital Transformation", icon: "fa-microchip", text: "Institutional GIS modernization, training programs, workflow standardization, and capacity building across technical teams." }
+    { title: "Spatial Decision Support", icon: "fa-diagram-project", text: "Executive dashboards, Power BI dashboards, spatial reports, scenario maps, and geospatial products for public and private-sector leaders." },
+    { title: "Digital Transformation", icon: "fa-microchip", text: "Institutional GIS modernization, geospatial digital twins, workflow standardization, strategic planning, and capacity building across technical teams." },
+    { title: "Project Management PMP®", icon: "fa-list-check", text: "PMP® certified project leadership for multidisciplinary GIS, remote sensing, environmental management, and strategic planning assignments." }
   ],
   experience: [
     {
-      role: "GIS and Remote Sensing Consultant",
-      organization: "Sovereign Entity",
-      country: "Saudi Arabia",
-      duration: "Jul 2025",
-      technologies: ["ArcGIS Pro", "WMS", "DEMs", "Remote sensing", "Field survey data"],
+      role: "GIS and Remote Sensing Consultant (Remote)",
+      organization: "RESO Company",
+      country: "Bahrain",
+      duration: "May 2026 - Present",
+      technologies: ["Enterprise GIS", "Remote sensing", "Spatial analytics", "Environmental risk assessment", "Decision support systems"],
       achievements: [
-        "Delivered Geospatial Intelligence and Advanced Spatial Analytics to support executive decision-making, strategic consulting, and high-priority planning initiatives for a Sovereign Entity.",
-        "Integrated DEMs, satellite imagery, survey data, and field observations into enterprise geospatial platforms for infrastructure planning, environmental monitoring, and technical assessment.",
-        "Developed data-driven Decision Support Systems, environmental risk analyses, and predictive spatial models to strengthen operational planning and resilience-focused initiatives.",
-        "Supported crisis and emergency management capabilities through specialized geospatial workflows, technical mentoring, and standardized spatial analysis practices."
+        "Provide strategic geospatial consulting for infrastructure, environmental, and spatial development projects across Gulf-region contexts.",
+        "Develop advanced GIS, remote sensing, spatial analytics, and decision support solutions for planning and environmental management challenges.",
+        "Support enterprise geodatabase design, geospatial data governance, digital transformation, and environmental risk assessment workflows."
+      ]
+    },
+    {
+      role: "GIS and Remote Sensing Consultant",
+      organization: "Technical Design Engineering Consultancy",
+      country: "Egypt",
+      duration: "Jul 2025 - Jun 2026",
+      technologies: ["ArcGIS Pro", "Google Earth Engine", "DEMs", "Satellite imagery", "Engineering datasets", "Dashboards"],
+      achievements: [
+        "Delivered senior-level GIS and remote sensing advisory services supporting infrastructure development, environmental planning, and sustainable spatial decision-making.",
+        "Integrated DEMs, satellite imagery, field survey data, and engineering datasets to establish reliable, scalable enterprise GIS environments.",
+        "Produced terrain modeling, hydrological assessment, environmental risk evaluation, thematic maps, analytical dashboards, and executive decision support outputs."
       ]
     },
     {
       role: "GIS and Remote Sensing Consultant - Hydrologic Studies",
-      organization: "Strategize IT",
+      organization: "Egypt IT Strategize",
       country: "Egypt",
-      duration: "Jul 2025",
+      duration: "May 2025 - Apr 2026",
       technologies: ["ArcGIS Pro", "Arc Hydro", "Spatial Analyst", "SDE", "Landsat", "MODIS", "Sentinel"],
       achievements: [
-        "Led hydrologic GIS studies that converted DEMs, satellite imagery, and drainage models into flood-risk intelligence for arid landscapes.",
-        "Built high-resolution terrain and watershed products used to assess runoff behavior, catchment response, and water-flow accumulation.",
-        "Delivered executive geospatial reporting for environmental impact assessment and water-resource decision making."
+        "Led spatial hydrologic studies using GIS and remote sensing to assess watershed behavior, flash flood risk, and drainage patterns across arid and semi-arid regions.",
+        "Developed high-resolution DEMs, watershed delineation layers, runoff simulations, and catchment-flow products for flood susceptibility modeling.",
+        "Standardized geospatial datasets in ArcGIS Pro and ArcSDE and delivered reports supporting environmental impact assessment and water resource management."
+      ]
+    },
+    {
+      role: "Lecturer, Department of Humanities",
+      organization: "Egyptian Chinese University",
+      country: "Egypt",
+      duration: "Sep 2024 - Jul 2025",
+      technologies: ["GIS", "Remote sensing", "Geomatics", "Cartography", "Web mapping"],
+      achievements: [
+        "Delivered introductory and advanced courses in GIS, remote sensing, geomatics, cartography, and web mapping.",
+        "Contributed to GIS Day, academic events, curriculum development, student research, and applied geospatial learning activities.",
+        "Strengthened student capability in practical spatial analysis, map production, and remote sensing interpretation."
       ]
     },
     {
@@ -125,7 +149,7 @@ window.portfolioData = {
       organization: "Egyptian Environmental Affairs Agency, Presidency of the Egyptian Cabinet",
       country: "Egypt",
       duration: "Mar 2022",
-      technologies: ["ArcGIS", "PCI Geomatics", "ERDAS Imagine", "MODIS", "Landsat", "SPOT", "GeoEye"],
+      technologies: ["ArcGIS", "PCI Geomatics", "ERDAS IMAGINE", "MODIS", "Landsat", "SPOT", "GeoEye"],
       achievements: [
         "Designed national training programs that strengthened environmental GIS capability across agency branches.",
         "Translated remote sensing methods into applied workflows for pollution mapping, coastline monitoring, urban sprawl analysis, and disaster response.",
@@ -390,16 +414,16 @@ window.portfolioData = {
     }
   ],
   publications: [
-    { year: "2026", type: "Journal Article", theme: "Environment", title: "Multi-index Analysis for Wildfire Severity and Vegetation Dieback Assessment in Semi-arid Forest Ecosystems", venue: "Frontiers in Forests and Global Change, Vol. 9, Article 1809572", authors: "Abdeljawad, S. A., et al.", doi: "DOI placeholder" },
-    { year: "2025", type: "Research", theme: "Geomorphology", title: "The Geomorphological Characteristics of the Continental Shelf along Egypt's Northern Coast: An Applied Study Using Geomatics", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2024", type: "Research", theme: "Geomorphology", title: "Dynamics of the Damietta Branch and Geomorphological Applications Using Geomatics", venue: "Selected research", authors: "Abdeljawad, S. A., et al.", doi: "DOI placeholder" },
-    { year: "2024", type: "GeoAI", theme: "GeoAI", title: "Evaluating the Role of Geospatial Artificial Intelligence in Monitoring Spatiotemporal Changes in Green Areas in Heliopolis District During 2015-2024", venue: "Selected research", authors: "Abdeljawad, S. A., et al.", doi: "DOI placeholder" },
-    { year: "2024", type: "Research", theme: "Urban Development", title: "Monitoring Geomorphological Changes at the North of Egyptian Delta and their Impact on Urban Development Using Geospatial Techniques", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2023", type: "GeoAI", theme: "Hydrology", title: "Geospatial Modeling and Artificial Intelligence for Flash Flood Hazard Analysis and Prediction in the Wadi Watir Basin, Southern Sinai Peninsula, Egypt", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2023", type: "Research", theme: "Geomorphology", title: "Geospatial Modeling of Mass Movement Hazards on the Slopes of Aqaba Dhalaa Road, Asir, Kingdom of Saudi Arabia", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2022", type: "Research", theme: "Hydrology", title: "Flash Flood Hazards in New Cairo City by Using 3D Hydrological Modeling", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2020", type: "Research", theme: "Environment", title: "Hydroponics Environmental Impacts - Buraidah, KSA", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" },
-    { year: "2018-2019", type: "Research", theme: "Hazards", title: "Studies on rockfall and flash flood hazards in Egypt and Saudi Arabia using GIS and Remote Sensing", venue: "Selected research", authors: "Abdeljawad, S. A.", doi: "DOI placeholder" }
+    { year: "2026", type: "Journal Article", theme: "Environment", title: "Multi-index Analysis for Wildfire Severity and Vegetation Dieback Assessment in Semi-arid Forest Ecosystems", venue: "Frontiers in Forests and Global Change, Vol. 9, Article 1809572", authors: "Abdeljawad, S. A., et al.", doi: "Peer-reviewed publication" },
+    { year: "2025", type: "Research", theme: "Geomorphology", title: "The Geomorphological Characteristics of the Continental Shelf along Egypt's Northern Coast: An Applied Study Using Geomatics", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "Geomatics and coastal geomorphology" },
+    { year: "2024", type: "Research", theme: "Geomorphology", title: "Dynamics of the Damietta Branch and Geomorphological Applications Using Geomatics", venue: "Selected research from CV", authors: "Abdeljawad, S. A., et al.", doi: "Geomatics application" },
+    { year: "2024", type: "GeoAI", theme: "GeoAI", title: "Evaluating the Role of Geospatial Artificial Intelligence in Monitoring Spatiotemporal Changes in Green Areas in Heliopolis District During 2015-2024", venue: "Selected research from CV", authors: "Abdeljawad, S. A., et al.", doi: "GeoAI and green-area monitoring" },
+    { year: "2024", type: "Research", theme: "Urban Development", title: "Monitoring Geomorphological Changes North of the Egyptian Delta and Their Impact on Urban Development Using Geospatial Techniques", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "Urban development and geomorphology" },
+    { year: "2023", type: "GeoAI", theme: "Hydrology", title: "Geospatial Modeling and Artificial Intelligence for Flash Flood Hazard Analysis and Prediction in the Wadi Watir Basin, Southern Sinai Peninsula, Egypt", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "GeoAI and hydrological risk" },
+    { year: "2023", type: "Research", theme: "Geomorphology", title: "Geospatial Modeling of Mass Movement Hazards on the Slopes of Aqaba Dhalaa Road, Asir, Kingdom of Saudi Arabia", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "Mass movement hazards" },
+    { year: "2022", type: "Research", theme: "Hydrology", title: "Flash Flood Hazards in New Cairo City Using 3D Hydrological Modeling", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "3D hydrological modeling" },
+    { year: "2020", type: "Research", theme: "Environment", title: "Hydroponics Environmental Impacts - Buraidah, KSA", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "Environmental impact assessment" },
+    { year: "2018-2019", type: "Research", theme: "Hazards", title: "Studies on rockfall and flash flood hazards in Egypt and Saudi Arabia using GIS and Remote Sensing", venue: "Selected research from CV", authors: "Abdeljawad, S. A.", doi: "Hazard mapping and remote sensing" }
   ],
   books: [
     { year: "2022", title: "Geographical Information Systems and Remote Sensing: A Practical Approach", description: "A practical academic reference that connects GIS and remote sensing foundations with hands-on geospatial workflows." },
@@ -407,16 +431,16 @@ window.portfolioData = {
     { year: "In press", title: "Geography of Egypt: A Comprehensive Applied Study", description: "A comprehensive applied geography study of Egypt, prepared for academic and professional audiences." }
   ],
   skillCategories: [
-    { category: "Enterprise GIS", icon: "fa-server", years: "15+", description: "Enterprise geodatabases, ArcGIS platforms, spatial governance, UDM models, and multi-agency data architecture.", skills: ["ArcGIS Enterprise", "ArcGIS Pro", "ArcSDE", "ArcServer", "Geodatabase design"] },
-    { category: "Remote Sensing", icon: "fa-satellite-dish", years: "20+", description: "Satellite processing, image interpretation, land-use change, environmental indicators, and multi-temporal analysis.", skills: ["Landsat", "MODIS", "SPOT", "GeoEye", "ERDAS Imagine", "PCI Geomatica", "ENVI"] },
-    { category: "Programming", icon: "fa-code", years: "8+", description: "Automation, geoprocessing, spatial scripting, repeatable workflows, and data transformation.", skills: ["Python", "ArcPy", "Automation", "ModelBuilder"] },
-    { category: "Cloud", icon: "fa-cloud", years: "5+", description: "Cloud-enabled imagery analysis, shared spatial data, and scalable environmental monitoring workflows.", skills: ["Google Earth Engine", "Web services", "Cloud GIS concepts"] },
-    { category: "GeoAI and Machine Learning", icon: "fa-brain", years: "5+", description: "Spatial prediction, classification, hazard susceptibility, green-area monitoring, and AI-supported decision models.", skills: ["GeoAI", "Machine learning", "Spatial prediction", "Risk models"] },
-    { category: "Hydrology", icon: "fa-water", years: "15+", description: "Flash flood modeling, watershed analysis, DEM derivatives, drainage networks, and runoff susceptibility.", skills: ["Arc Hydro", "WMS", "DEM processing", "Flow accumulation"] },
-    { category: "Spatial Databases", icon: "fa-database", years: "18+", description: "Spatial data modeling, quality control, schema design, environmental indicators, and enterprise data integration.", skills: ["SDE", "UDM", "Database QA/QC", "Spatial ETL"] },
-    { category: "Web GIS", icon: "fa-globe", years: "8+", description: "Interactive web maps, spatial dashboards, map services, stakeholder portals, and location intelligence interfaces.", skills: ["Leaflet", "WMS", "Dashboards", "Map services"] },
-    { category: "Infrastructure", icon: "fa-bolt", years: "6+", description: "Electrical grid GIS, base map validation, utility layers, survey workflows, and engineering data exchange.", skills: ["AutoCAD", "GPS", "Utility GIS", "Infrastructure mapping"] },
-    { category: "Environmental Applications", icon: "fa-leaf", years: "18+", description: "Air, water, noise, vegetation, fires, coastal change, pollution sources, coral bleaching, and sensitivity mapping.", skills: ["Environmental monitoring", "Pollution mapping", "Coastal analysis"] }
+    { category: "GeoAI Applications", icon: "fa-brain", years: "5+", description: "Spatial prediction, hazard susceptibility, green-area monitoring, AI-assisted classification, and geospatial decision models.", skills: ["GeoAI", "Geospatial Artificial Intelligence", "Machine learning", "Spatial prediction", "Risk models"] },
+    { category: "Enterprise GIS", icon: "fa-server", years: "15+", description: "Enterprise geodatabases, ArcGIS platforms, spatial governance, UDM models, and multi-agency geospatial architecture.", skills: ["ArcGIS Enterprise", "ArcGIS Pro", "ArcSDE", "ArcServer", "Geodatabase design"] },
+    { category: "Remote Sensing and Google Earth Engine", icon: "fa-satellite-dish", years: "20+", description: "Satellite processing, cloud-based Earth observation, land-use change, environmental indicators, and multi-temporal analysis.", skills: ["Google Earth Engine", "Landsat", "MODIS", "Sentinel", "SPOT", "GeoEye", "ERDAS IMAGINE", "PCI Geomatics"] },
+    { category: "Hydrological Modeling", icon: "fa-water", years: "15+", description: "Flash flood modeling, watershed analysis, DEM derivatives, drainage networks, runoff susceptibility, and Arc Hydro workflows.", skills: ["Arc Hydro Modeling", "WMS", "DEM processing", "Flow accumulation", "Watershed delineation"] },
+    { category: "Environmental Risk and Crisis Management", icon: "fa-triangle-exclamation", years: "18+", description: "Environmental crisis mapping, disaster risk reduction, climate change assessment, pollution monitoring, and natural hazard mapping.", skills: ["Environmental Crisis Management", "Disaster Risk Reduction", "Climate Change Assessment", "Environmental monitoring"] },
+    { category: "Digital Transformation and Strategic Planning", icon: "fa-microchip", years: "10+", description: "Institutional GIS modernization, workflow standardization, strategic planning, data governance, and geospatial digital transformation.", skills: ["Digital Transformation", "Strategic Planning", "Geospatial Digital Twins", "Spatial data governance"] },
+    { category: "Decision Support and Dashboards", icon: "fa-chart-line", years: "10+", description: "Executive dashboards, Power BI dashboards, spatial reports, scenario maps, and decision support systems.", skills: ["Decision Support Systems", "Power BI Dashboards", "Spatial analytics", "Map services"] },
+    { category: "Geospatial Big Data Analytics", icon: "fa-database", years: "10+", description: "Large-scale spatial data modeling, quality control, schema design, environmental indicators, and enterprise data integration.", skills: ["Geospatial Big Data Analytics", "Spatial ETL", "Database QA/QC", "SDE", "UDM"] },
+    { category: "Project Management PMP®", icon: "fa-list-check", years: "5+", description: "PMP® certified leadership for multidisciplinary geospatial consulting, remote sensing, environmental management, and capacity-building programs.", skills: ["Project Management PMP®", "Stakeholder coordination", "Technical reporting", "Training delivery"] },
+    { category: "Infrastructure and Urban GIS", icon: "fa-bolt", years: "10+", description: "Electrical grid GIS, municipal GIS, base map validation, utility layers, survey workflows, and urban planning support.", skills: ["AutoCAD", "GPS", "Utility GIS", "Municipal GIS", "Infrastructure mapping"] }
   ],
   teaching: [
     { institution: "Egyptian Chinese University", courses: ["GIS", "Remote Sensing", "Geography of Egypt"] },
@@ -436,18 +460,23 @@ window.portfolioData = {
     "2021: Southern Galala Plateau - dry valley and applied geomorphology study"
   ],
   academicCommittees: [
-    "Strategic Planning, Digital Transformation, and Bookstore Monitoring, 2020-2021",
-    "Community Cooperation and Literacy, 2020-2022",
-    "Alumni Association Administration, 2022",
-    "Libraries Committee, 2023",
-    "Central Labs Committee, 2024"
+    "Strategic Planning Committee, Port Said University, 2020-2021",
+    "Digital Transformation Committee, Port Said University, 2020-2021",
+    "Bookstore Monitoring Committee, Port Said University, 2020-2021",
+    "Community Cooperation and Literacy Committee, Port Said University, 2020-2022",
+    "Alumni Association Administration, Port Said University, 2022",
+    "Libraries Committee, Port Said University, 2023",
+    "Central Labs Committee, Port Said University, 2024"
   ],
   certifications: [
-    "PMP Certified Professional",
-    "TOEFL",
-    "ICDL",
-    "ISO-related professional training",
-    "Professional GIS and remote sensing workshops delivered for governmental and academic institutions"
+    "Project Management Professional (PMP®)",
+    "TOEFL score 550",
+    "International Computer Driving License (ICDL)",
+    "ISO 9001:2008 quality management training",
+    "ArcIMS professional training",
+    "Remote sensing professional training",
+    "Advanced GIS professional training",
+    "Governmental and academic GIS and remote sensing capacity-building programs"
   ],
   conferences: [
     "2026: Second International Geographic Conference - Climate Change and Sustainable Development, Beni Suef University, Morocco, research presenter and discussant, 4-5 April 2026",
@@ -474,13 +503,20 @@ window.portfolioData = {
   researchInterests: [
     "Geographical Information Systems",
     "Remote Sensing",
-    "GeoAI and spatial prediction",
+    "GeoAI applications and spatial prediction",
+    "Geospatial Intelligence",
+    "Enterprise GIS",
+    "Decision Support Systems",
+    "Climate Change Assessment",
+    "Disaster Risk Reduction",
     "Flash flood hazards",
     "Rockfall and slope movement",
-    "Hydrologic studies",
+    "Hydrological modeling and Arc Hydro",
     "Digital modeling and simulation",
     "Environmental analysis",
-    "Applied geomorphology"
+    "Applied geomorphology",
+    "Geospatial Big Data Analytics",
+    "Geospatial Digital Twins"
   ],
   education: [
     "Ph.D. in Geography - GIS and Remote Sensing, Faculty of Arts, Helwan University, 2018, Excellent",
@@ -490,7 +526,7 @@ window.portfolioData = {
   ],
   memberships: [
     "Active Member, Egyptian Geographical Society since 2002",
-    "Port Said University committees in strategic planning, digital transformation, community cooperation, alumni affairs, libraries, and central labs"
+    "University committees and academic leadership roles in strategic planning, digital transformation, community cooperation, alumni affairs, libraries, and central labs at Port Said University"
   ],
   consulting: [
     { region: "Egypt", focus: "Environmental GIS, national monitoring, disaster response, hydrology, university research, and applied geomorphology.", sectors: ["Environment", "Hydrology", "Urban Planning", "Research"] },
@@ -500,7 +536,6 @@ window.portfolioData = {
   ],
   profileLibrary: [
     { title: "Curriculum Vitae", type: "Online Profile", href: "cv.html", icon: "fa-id-card", action: "View Profile" },
-    { title: "Reviewed CV Redline", type: "Word Document", href: "Eng-CV_Reviewed_Redline.docx", icon: "fa-file-word", action: "Download CV" },
     { title: "Portfolio Summary", type: "Profile Overview", href: "about.html", icon: "fa-user-tie", action: "Read More" },
     { title: "Publications List", type: "Research Index", href: "publications.html", icon: "fa-book-open-reader", action: "Browse Publications" },
     { title: "Books Overview", type: "Books", href: "books.html", icon: "fa-book", action: "Read More" },
