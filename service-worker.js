@@ -1,4 +1,4 @@
-const CACHE_NAME = "sobhi-geo-v13";
+const CACHE_NAME = "sobhi-geo-v14";
 const CORE_ASSETS = [
   "./",
   "./index.html",
