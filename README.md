@@ -1,4 +1,4 @@
-# Dr. Sobhi Abdeljawad Geospatial Portfolio
+# Dr. Sobhi Abdel Hameed Abdel Gawad Geospatial Portfolio
 
 Premium static portfolio website for an academic researcher, Assistant Professor, PMP certified senior GIS and Remote Sensing consultant, GeoAI researcher, and applied environmental risk specialist.
 

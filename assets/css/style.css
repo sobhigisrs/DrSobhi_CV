@@ -367,6 +367,27 @@ body[data-page="home"] .hero {
   padding: 144px 0 72px;
 }
 
+.hero-title-ar {
+  display: grid;
+  gap: 0.35rem;
+  max-width: 980px;
+  margin: -0.25rem 0 1.4rem;
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  text-align: right;
+}
+
+.hero-title-ar strong {
+  color: var(--teal-2);
+  font-size: clamp(1.05rem, 1rem + 0.25vw, 1.28rem);
+}
+
+.hero-title-ar span {
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
 body[data-page="home"] .hero::before {
   background:
     linear-gradient(90deg, rgba(4, 15, 31, 0.98), rgba(4, 18, 36, 0.88) 42%, rgba(4, 18, 36, 0.5) 70%, rgba(4, 18, 36, 0.28)),

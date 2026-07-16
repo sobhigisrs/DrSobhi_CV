@@ -203,7 +203,7 @@
     if (!root) return;
     const id = document.body.dataset.project;
     const project = data.projects.find((item) => item.id === id) || data.projects[0];
-    document.title = `${project.title} | Dr. Sobhi Abdeljawad`;
+    document.title = `${project.title} | Dr. Sobhi Abdel Hameed Abdel Gawad`;
     const title = $("#projectTitle");
     const subtitle = $("#projectSubtitle");
     if (title) title.textContent = project.title;
@@ -631,7 +631,7 @@
           "@type": "BreadcrumbList",
           "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": path("index.html") },
-            { "@type": "ListItem", "position": 2, "name": pageTitle.replace(" | Dr. Sobhi Abdeljawad", ""), "item": current }
+            { "@type": "ListItem", "position": 2, "name": pageTitle.replace(" | Dr. Sobhi Abdel Hameed Abdel Gawad", ""), "item": current }
           ]
         }
       ]

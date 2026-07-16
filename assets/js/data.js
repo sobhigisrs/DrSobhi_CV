@@ -1,20 +1,21 @@
 window.portfolioData = {
   site: {
     baseUrl: "./",
-    title: "Dr. Sobhi Abdeljawad | PMP® Senior GIS and Remote Sensing Consultant | GeoAI and Environmental Risk",
+    title: "Dr. Sobhi Abdel Hameed Abdel Gawad | Assistant Professor of Physical Geography, GIS, and Remote Sensing",
     description:
-      "Executive portfolio for a PMP certified senior GIS and Remote Sensing consultant, GeoAI specialist, hydrological studies advisor, strategic planning contributor, and environmental risk management expert."
+      "Academic and professional portfolio of an Assistant Professor of Physical Geography, Geographic Information Systems (GIS), and Remote Sensing."
   },
   person: {
-    name: "Sobhi Abdulhamid Abduljawwad Abdulhamid",
-    shortName: "Dr. Sobhi Abdeljawad",
-    title: "PMP® | Senior GIS and Remote Sensing Consultant | GeoAI and Environmental Risk Specialist",
+    name: "Sobhi Abdel Hameed Abdel Gawad",
+    shortName: "Dr. Sobhi Abdel Hameed Abdel Gawad",
+    title: "Assistant Professor of Physical Geography, Geographic Information Systems (GIS), and Remote Sensing",
     email: "sobhi.abdelhameed@arts.psu.edu.eg",
     phone: "+20 101 525 2458",
     whatsapp: "https://wa.me/201015252458",
     location: "Cairo, Egypt",
     cv: "cv.html",
     roles: [
+      "Assistant Professor of Physical Geography, GIS, and Remote Sensing",
       "Senior Geospatial Consultant",
       "PMP® Certified GIS and Remote Sensing Consultant",
       "GeoAI and Spatial Decision Support Specialist",
@@ -23,7 +24,7 @@ window.portfolioData = {
       "Hydrological Studies and Strategic Planning Consultant"
     ],
     executiveSummary:
-      "Senior GIS and Remote Sensing expert with 23+ years of cross-disciplinary leadership in applied geomorphology, environmental monitoring, urban and strategic planning, hydrological studies, climate change assessment, disaster risk reduction, and environmental risk management across Egypt and the Gulf region. Offers advanced expertise in spatial analytics, satellite image processing, GeoAI applications, geospatial intelligence, digital transformation, enterprise GIS, and the design and implementation of national and regional geodatabases. Proven record leading multidisciplinary teams and delivering strategic geospatial solutions for flash flood risk, slope and rockfall hazards, climate-related challenges, environmental degradation, and infrastructure resilience.",
+      "Assistant Professor of Physical Geography, Geographic Information Systems (GIS), and Remote Sensing with 23+ years of cross-disciplinary leadership in applied geomorphology, environmental monitoring, urban and strategic planning, hydrological studies, climate change assessment, disaster risk reduction, and environmental risk management across Egypt and the Gulf region. Offers advanced expertise in spatial analytics, satellite image processing, GeoAI applications, geospatial intelligence, digital transformation, enterprise GIS, and the design and implementation of national and regional geodatabases. Proven record leading multidisciplinary teams and delivering strategic geospatial solutions for flash flood risk, slope and rockfall hazards, climate-related challenges, environmental degradation, and infrastructure resilience.",
     philosophy:
       "His work connects academic rigor with executive decision support: every map, model, geodatabase, dashboard, and field protocol must be scientifically defensible, operationally useful, and clear enough to guide leaders responsible for people, infrastructure, and environmental assets."
   },
