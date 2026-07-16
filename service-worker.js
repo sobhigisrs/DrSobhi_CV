@@ -1,4 +1,4 @@
-const CACHE_NAME = "sobhi-geo-v10";
+const CACHE_NAME = "sobhi-geo-v11";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -25,7 +25,8 @@ const CORE_ASSETS = [
   "./assets/js/main.js",
   "./assets/images/favicon.svg",
   "./assets/images/hero-geospatial.jpg",
-  "./assets/images/hero-geospatial.png"
+  "./assets/images/hero-geospatial.png",
+  "./assets/images/geospatial-science-background.webp"
 ];
 
 self.addEventListener("install", (event) => {

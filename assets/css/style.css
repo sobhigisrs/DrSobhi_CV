@@ -76,9 +76,9 @@ body::before {
 
 body::after {
   background:
-    linear-gradient(120deg, rgba(24, 196, 187, 0.16), transparent 26%, rgba(74, 163, 255, 0.1), transparent 64%),
-    url("../images/hero-geospatial.jpg") top right / min(1200px, 86vw) auto no-repeat;
-  opacity: 0.28;
+    linear-gradient(120deg, rgba(6, 23, 43, 0.28), transparent 35%, rgba(24, 196, 187, 0.08)),
+    url("../images/geospatial-science-background.webp") center top / cover no-repeat fixed;
+  opacity: 0.42;
   z-index: -3;
 }
 
@@ -310,7 +310,7 @@ img,
   inset: 0;
   background:
     linear-gradient(90deg, rgba(4, 19, 38, 0.96), rgba(4, 19, 38, 0.7) 50%, rgba(4, 19, 38, 0.24)),
-    url("../images/hero-geospatial.jpg") center right / cover no-repeat;
+    url("../images/geospatial-science-background.webp") center right / cover no-repeat;
   z-index: -2;
 }
 
@@ -318,7 +318,7 @@ img,
 [data-theme="light"] .page-hero::before {
   background:
     linear-gradient(90deg, rgba(246, 250, 252, 0.96), rgba(246, 250, 252, 0.76) 56%, rgba(246, 250, 252, 0.32)),
-    url("../images/hero-geospatial.jpg") center right / cover no-repeat;
+    url("../images/geospatial-science-background.webp") center right / cover no-repeat;
 }
 
 .hero::after,
@@ -373,7 +373,7 @@ body[data-page="home"] .hero::before {
     radial-gradient(circle at 65% 24%, rgba(130, 240, 232, 0.12), transparent 16rem),
     radial-gradient(circle at 70% 58%, rgba(74, 163, 255, 0.16), transparent 18rem),
     linear-gradient(145deg, rgba(6, 23, 43, 0.6), rgba(4, 12, 24, 0.96)),
-    url("../images/hero-geospatial.jpg") center right / cover no-repeat;
+    url("../images/geospatial-science-background.webp") center right / cover no-repeat;
 }
 
 body[data-page="home"] .hero::after {
