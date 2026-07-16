@@ -106,7 +106,8 @@ p {
   max-width: 70ch;
   margin: 0 0 1.5rem;
   line-height: 1.9;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   text-wrap: pretty;
 }
 
