@@ -907,6 +907,17 @@ h4 {
   overflow: hidden;
 }
 
+.mini-action-primary {
+  border-color: rgba(24, 196, 187, 0.52);
+  background: linear-gradient(135deg, rgba(24, 196, 187, 0.2), rgba(38, 119, 255, 0.16));
+  color: var(--text);
+}
+
+.mini-action-primary:hover {
+  border-color: var(--teal-2);
+  box-shadow: 0 10px 24px rgba(24, 196, 187, 0.16);
+}
+
 .project-visual {
   min-height: 162px;
   display: flex;

@@ -273,6 +273,11 @@
   }
 
   function publicationCard(pub, index) {
+    const primaryAction = pub.pdf
+      ? `<a class="mini-action mini-action-primary" href="${pub.pdf}" target="_blank" rel="noopener noreferrer" download><i class="fa-solid fa-file-arrow-down"></i>Download PDF</a>`
+      : pub.url
+        ? `<a class="mini-action mini-action-primary" href="${pub.url}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i>View Article</a>`
+        : "";
     return `
       <div class="col-lg-6 publication-card-wrap" data-type="${pub.type}" data-theme="${pub.theme}" data-search="${`${pub.title} ${pub.authors} ${pub.venue} ${pub.theme}`.toLowerCase()}">
         <article class="publication-card glass tilt-card" data-aos="fade-up" data-aos-delay="${(index % 3) * 50}">
@@ -280,9 +285,9 @@
           <h3>${apa(pub)}</h3>
           <p>${pub.theme} | ${pub.type}</p>
           <div class="pub-actions">
+            ${primaryAction}
             <button class="mini-action" data-copy="${encodeURIComponent(apa(pub))}"><i class="fa-solid fa-quote-right"></i>Citation</button>
             <button class="mini-action" data-copy="${encodeURIComponent(bibtex(pub))}"><i class="fa-solid fa-code"></i>BibTeX</button>
-            <a class="mini-action" href="${path("publications.html")}"><i class="fa-solid fa-book-open-reader"></i>Read More</a>
             <small>${pub.doi}</small>
           </div>
         </article>
