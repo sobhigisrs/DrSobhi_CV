@@ -17,7 +17,7 @@ window.portfolioData = {
     roles: [
       "Assistant Professor of Physical Geography, GIS, and Remote Sensing",
       "Senior Geospatial Consultant",
-      "PMP® Certified GIS and Remote Sensing Consultant",
+      "PMP\u00ae Certified GIS and Remote Sensing Consultant",
       "GeoAI and Spatial Decision Support Specialist",
       "Applied Geomorphology and Natural Hazard Expert",
       "Environmental Risk and Disaster Risk Reduction Advisor",
