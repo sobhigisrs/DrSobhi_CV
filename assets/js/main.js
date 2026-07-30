@@ -138,7 +138,7 @@
       <article class="timeline-item" data-aos="${index % 2 ? "fade-left" : "fade-right"}">
         <div class="timeline-dot"></div>
         <div class="timeline-panel glass tilt-card">
-          <span class="eyebrow">${job.duration} | ${job.country}</span>
+          <span class="eyebrow">${job.duration}${job.country ? ` | ${job.country}` : ""}</span>
           <h3>${job.role}</h3>
           <h4>${job.organization}</h4>
           <ul>${job.achievements.map((a) => `<li>${a}</li>`).join("")}</ul>

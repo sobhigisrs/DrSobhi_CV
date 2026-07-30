@@ -132,7 +132,7 @@ window.portfolioData = {
     {
       role: "GIS and Remote Sensing Consultant",
       organization: "Sovereign Entity",
-      country: "Saudi Arabia",
+      country: "",
       duration: "Jul 2025 - Jun 2026",
       technologies: ["ArcGIS Pro", "Google Earth Engine", "Geospatial Intelligence", "Advanced Spatial Analytics", "Enterprise GIS", "Remote Sensing", "Decision Support Systems"],
       achievements: [
