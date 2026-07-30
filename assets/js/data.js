@@ -30,7 +30,7 @@ window.portfolioData = {
   },
   links: {
     researchGate: "https://www.researchgate.net/profile/sbhy-bdaljwad",
-    linkedIn: "#",
+    linkedIn: "https://www.linkedin.com/in/dr-sobhi-abdulhamid-abduljawwad-/",
     scholar: "#",
     orcid: "#"
   },
@@ -112,26 +112,14 @@ window.portfolioData = {
     {
       role: "GIS and Remote Sensing Consultant",
       organization: "Sovereign Entity",
-      country: "Strategic Consulting Assignment",
-      duration: "Jul 2025",
-      technologies: ["Geospatial Intelligence", "Advanced Spatial Analytics", "Enterprise GIS", "Remote sensing", "Decision Support Systems"],
-      achievements: [
-        "Delivered geospatial intelligence and advanced spatial analytics to support executive decision-making, strategic consulting, and high-priority planning initiatives for a Sovereign Entity.",
-        "Integrated DEMs, satellite imagery, survey data, and field observations into enterprise geospatial platforms for infrastructure planning, environmental monitoring, and technical assessment.",
-        "Developed data-driven decision support systems, environmental risk analyses, and predictive spatial models to strengthen operational planning and resilience-focused initiatives.",
-        "Supported crisis and emergency management capabilities through specialized geospatial workflows, technical mentoring, and standardized spatial analysis practices."
-      ]
-    },
-    {
-      role: "GIS and Remote Sensing Consultant",
-      organization: "Technical Design Engineering Consultancy",
-      country: "Egypt",
+      country: "Saudi Arabia",
       duration: "Jul 2025 - Jun 2026",
-      technologies: ["ArcGIS Pro", "Google Earth Engine", "DEMs", "Satellite imagery", "Engineering datasets", "Dashboards"],
+      technologies: ["ArcGIS Pro", "Google Earth Engine", "Geospatial Intelligence", "Advanced Spatial Analytics", "Enterprise GIS", "Remote Sensing", "Decision Support Systems"],
       achievements: [
-        "Delivered senior-level GIS and remote sensing advisory services supporting infrastructure development, environmental planning, and sustainable spatial decision-making.",
-        "Integrated DEMs, satellite imagery, field survey data, and engineering datasets to establish reliable, scalable enterprise GIS environments.",
-        "Produced terrain modeling, hydrological assessment, environmental risk evaluation, thematic maps, analytical dashboards, and executive decision support outputs."
+        "Delivered senior-level geospatial intelligence, GIS, and remote sensing advisory services for strategic infrastructure, environmental planning, and high-priority decision-making initiatives.",
+        "Integrated DEMs, satellite imagery, engineering datasets, survey data, and field observations into reliable enterprise geospatial environments.",
+        "Produced terrain and hydrological models, environmental risk assessments, predictive spatial analyses, thematic maps, and executive dashboards.",
+        "Strengthened operational planning and resilience through standardized geospatial workflows, technical mentoring, and decision-support solutions."
       ]
     },
     {
@@ -487,6 +475,18 @@ window.portfolioData = {
     "Central Labs Committee, Port Said University, 2024"
   ],
   certifications: [
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Strategic Management",
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Internal Review",
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Research Methods",
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Academic Profile",
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Journal Selection and Research-Paper Submission",
+    "Faculty and Leadership Development Center (FLDC), Port Said University (2024): Work Stress Management",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): Strategic Planning",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): Self-Evaluation",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): External Review",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): Examinations and Assessment",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): Programme and Course Specification and Learning Outcomes",
+    "National Authority for Quality Assurance and Accreditation of Education (NAQAAE), Egypt (2023): Effective Teaching and Learning",
     "Project Management Professional (PMP®)",
     "TOEFL score 550",
     "International Computer Driving License (ICDL)",
