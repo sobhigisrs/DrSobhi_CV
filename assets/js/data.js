@@ -1,3 +1,23 @@
+const monthRank = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12
+};
+
+function yearRank(value) {
+  const match = String(value).match(/\b(19|20)\d{2}\b/);
+  return match ? Number(match[0]) : -1;
+}
+
+function credentialDateRank(value) {
+  const text = String(value).toLowerCase();
+  const yearMatch = text.match(/\b(19|20)\d{2}\b/);
+  if (!yearMatch) return -1;
+  const prefix = text.slice(0, yearMatch.index);
+  const months = [...prefix.matchAll(/\b(january|february|march|april|may|june|july|august|september|october|november|december)\b/g)];
+  const month = months.length ? monthRank[months.at(-1)[1]] : 0;
+  return Number(yearMatch[0]) * 100 + month;
+}
+
 window.portfolioData = {
   site: {
     baseUrl: "./",
@@ -430,12 +450,12 @@ window.portfolioData = {
     { year: "2019", type: "Conference Research", theme: "Hydrology", title: "Flash Flood Hazards Using Spatial Modeling: Wadi Ghadir Basin, Red Sea, Egypt", venue: "Second International Geographical Conference, Menoufia University", authors: "Abdeljawad, S. A., & El Kayali, M.", doi: "ResearchGate publication 361155092", url: "https://www.researchgate.net/publication/361155092_aljlst_alsabt_walthamnt_mn_abhath_mwtmr_altnmyt_almstdamt_fy_alwtn_alrby_byn_alamkanyat_wtmwhat_alshwb_-_almwtmr_aljghrafy_aldwly_althany_aldhy_nzmh_mrkz_albhwth_aljghrafyt_walkartwjrafyt_bjamt_almnwf", pdf: "https://www.researchgate.net/profile/sbhy-bdaljwad/publication/361155092_aljlst_alsabt_walthamnt_mn_abhath_mwtmr_altnmyt_almstdamt_fy_alwtn_alrby_byn_alamkanyat_wtmwhat_alshwb_-_almwtmr_aljghrafy_aldwly_althany_aldhy_nzmh_mrkz_albhwth_aljghrafyt_walkartwjrafyt_bjamt_almnwf/links/629ff0a2416ec50bdb151c27/aljlst-alsabt-walthamnt-mn-abhath-mwtmr-altnmyt-almstdamt-fy-alwtn-alrby-byn-alamkanyat-wtmwhat-alshwb-almwtmr-aljghrafy-aldwly-althany-aldhy-nzmh-mrkz-albhwth-aljghrafyt-walkartwjrafyt-bjamt-almnwf.pdf" },
     { year: "2019", type: "Research", theme: "Hazards", title: "Assessment of Geomorphological Indicators for Rockfall Hazard Levels on the Coastal Road Slopes in Ain Sokhna Using GIS", venue: "Journal of the Faculty of Arts, Zagazig University, 85", authors: "El Kayali, M. A., Abdeljawad, S. A., & Khamis, T. K.", doi: "ResearchGate publication 358734820", url: "https://www.researchgate.net/publication/358734820_tqyym_almwshrat_aljywmwrfwlwjyt_ldrjat_khtwrt_hrkt_alsqwt_alskhry_drast_ttbyqyt_lbd_alnmadhj_bmnhdrat_altryq_alsahly_fy_mntqt_alyn_alskhnt_bastkhdam_nzm_almlwmat_aljghrafyt", pdf: "https://www.researchgate.net/profile/sbhy-bdaljwad/publication/358734820_tqyym_almwshrat_aljywmwrfwlwjyt_ldrjat_khtwrt_hrkt_alsqwt_alskhry_drast_ttbyqyt_lbd_alnmadhj_bmnhdrat_altryq_alsahly_fy_mntqt_alyn_alskhnt_bastkhdam_nzm_almlwmat_aljghrafyt/links/629fe23255273755ebdbfab1/tqyym-almwshrat-aljywmwrfwlwjyt-ldrjat-khtwrt-hrkt-alsqwt-alskhry-drast-ttbyqyt-lbd-alnmadhj-bmnhdrat-altryq-alsahly-fy-mntqt-alyn-alskhnt-bastkhdam-nzm-almlwmat-aljghrafyt.pdf" },
     { year: "2019", type: "Research", theme: "Hazards", title: "Rockfall Hazards and Their Impact on the Coastal Road in Ain Sokhna Using GIS and Remote Sensing", venue: "Journal of the Faculty of Arts, Zagazig University, 84", authors: "El Kayali, M. A., Abdeljawad, S. A., & Khamis, T. K.", doi: "ResearchGate publication 358734499", url: "https://www.researchgate.net/publication/358734499_akhtar_hrkt_alsqwt_alskhry_wathrha_ly_altryq_alsahly_fy_mntqt_yn_alskhnt_bastkhdam_nzm_almlwmat_aljghrafyt_walastshar_n_albud", pdf: "https://www.researchgate.net/profile/sbhy-bdaljwad/publication/358734499_akhtar_hrkt_alsqwt_alskhry_wathrha_ly_altryq_alsahly_fy_mntqt_yn_alskhnt_bastkhdam_nzm_almlwmat_aljghrafyt_walastshar_n_albud/links/629fe281a3fe3e3df8667e84/akhtar-hrkt-alsqwt-alskhry-wathrha-ly-altryq-alsahly-fy-mntqt-yn-alskhnt-bastkhdam-nzm-almlwmat-aljghrafyt-walastshar-n-albud.pdf" }
-  ],
+  ].sort((a, b) => yearRank(b.year) - yearRank(a.year)),
   books: [
     { year: "2022", title: "Geographical Information Systems and Remote Sensing: A Practical Approach", description: "A practical academic reference that connects GIS and remote sensing foundations with hands-on geospatial workflows." },
     { year: "2020", title: "Geography of Environment: An Applied Study", description: "In press. An applied environmental geography book focused on field interpretation, spatial analysis, and environmental decision support." },
     { year: "In press", title: "Geography of Egypt: A Comprehensive Applied Study", description: "A comprehensive applied geography study of Egypt, prepared for academic and professional audiences." }
-  ],
+  ].sort((a, b) => yearRank(b.year) - yearRank(a.year)),
   skillCategories: [
     { category: "GeoAI Applications", icon: "fa-brain", years: "5+", description: "Spatial prediction, hazard susceptibility, green-area monitoring, AI-assisted classification, and geospatial decision models.", skills: ["GeoAI", "Geospatial Artificial Intelligence", "Machine learning", "Spatial prediction", "Risk models"] },
     { category: "Enterprise GIS", icon: "fa-server", years: "15+", description: "Enterprise geodatabases, ArcGIS platforms, spatial governance, UDM models, and multi-agency geospatial architecture.", skills: ["ArcGIS Enterprise", "ArcGIS Pro", "ArcSDE", "ArcServer", "Geodatabase design"] },
@@ -523,7 +543,7 @@ window.portfolioData = {
     "Basic PCI Geomatica and Applications — GeoMAP Consultants / PCI authorized reseller",
     "Integrated Coastal Zone Management Using Information Technology, Eas'y Software — NARSS / ICAMS / FAO, December 2003",
     "TOEFL score 550",
-  ],
+  ].sort((a, b) => credentialDateRank(b) - credentialDateRank(a)),
   conferences: [
     "2026: Second International Geographic Conference - Climate Change and Sustainable Development, Beni Suef University, Morocco, research presenter and discussant, 4-5 April 2026",
     "2026: International Geographic Conference - Environmental Risks in the Arab Countries, Multidisciplinary Faculty of Taza, Morocco, research presenter and discussant, 23-24 April 2026",
