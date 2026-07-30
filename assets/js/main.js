@@ -69,28 +69,11 @@
 
   function animateCounters() {
     const counters = $$(".counter");
-    if (!counters.length) return;
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        const el = entry.target;
-        const target = Number(el.dataset.target || 0);
-        const suffix = el.dataset.suffix || "";
-        let current = 0;
-        el.textContent = `0${suffix}`;
-        const step = Math.max(1, Math.ceil(target / 44));
-        const timer = setInterval(() => {
-          current += step;
-          if (current >= target) {
-            current = target;
-            clearInterval(timer);
-          }
-          el.textContent = `${current}${suffix}`;
-        }, 26);
-        observer.unobserve(el);
-      });
-    }, { threshold: 0.35 });
-    counters.forEach((counter) => observer.observe(counter));
+    counters.forEach((counter) => {
+      const target = Number(counter.dataset.target || 0);
+      const suffix = counter.dataset.suffix || "";
+      counter.textContent = `${target}${suffix}`;
+    });
   }
 
   function statMarkup(stat) {
