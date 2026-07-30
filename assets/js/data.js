@@ -32,7 +32,7 @@ window.portfolioData = {
     email: "sobhi.abdelhameed@arts.psu.edu.eg",
     phone: "+20 101 525 2458",
     whatsapp: "https://wa.me/201015252458",
-    location: "Cairo, Egypt",
+    location: "Saudi Arabia",
     cv: "cv.html",
     roles: [
       "Assistant Professor of Physical Geography, GIS, and Remote Sensing",
@@ -132,7 +132,7 @@ window.portfolioData = {
     {
       role: "GIS and Remote Sensing Consultant",
       organization: "Sovereign Entity",
-      country: "Saudi Arabia",
+      country: "",
       duration: "Jul 2025 - Jun 2026",
       technologies: ["ArcGIS Pro", "Google Earth Engine", "Geospatial Intelligence", "Advanced Spatial Analytics", "Enterprise GIS", "Remote Sensing", "Decision Support Systems"],
       achievements: [

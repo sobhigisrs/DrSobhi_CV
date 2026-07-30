@@ -77,6 +77,7 @@
         const target = Number(el.dataset.target || 0);
         const suffix = el.dataset.suffix || "";
         let current = 0;
+        el.textContent = `0${suffix}`;
         const step = Math.max(1, Math.ceil(target / 44));
         const timer = setInterval(() => {
           current += step;
@@ -96,7 +97,7 @@
     return `
       <div class="col-sm-6 col-xl-4">
         <article class="stat-card glass tilt-card" data-aos="fade-up">
-          <strong class="counter" data-target="${stat.value}" data-suffix="${stat.suffix}">0</strong>
+          <strong class="counter" data-target="${stat.value}" data-suffix="${stat.suffix}">${stat.value}${stat.suffix}</strong>
           <span>${stat.label}</span>
         </article>
       </div>
@@ -138,7 +139,7 @@
       <article class="timeline-item" data-aos="${index % 2 ? "fade-left" : "fade-right"}">
         <div class="timeline-dot"></div>
         <div class="timeline-panel glass tilt-card">
-          <span class="eyebrow">${job.duration} | ${job.country}</span>
+          <span class="eyebrow">${job.duration}${job.country ? ` | ${job.country}` : ""}</span>
           <h3>${job.role}</h3>
           <h4>${job.organization}</h4>
           <ul>${job.achievements.map((a) => `<li>${a}</li>`).join("")}</ul>
